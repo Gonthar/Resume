@@ -9,19 +9,51 @@
 /* Begin PBXBuildFile section */
 		07A82E472337ED390082DDF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A82E462337ED390082DDF5 /* AppDelegate.swift */; };
 		07A82E492337ED390082DDF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A82E482337ED390082DDF5 /* ViewController.swift */; };
-		07A82E4C2337ED390082DDF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A82E4A2337ED390082DDF5 /* Main.storyboard */; };
 		07A82E4E2337ED3C0082DDF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A82E4D2337ED3C0082DDF5 /* Assets.xcassets */; };
 		07A82E512337ED3C0082DDF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A82E4F2337ED3C0082DDF5 /* LaunchScreen.storyboard */; };
+		07D4A2602337F19E00140FA8 /* HomeScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D4A25F2337F19E00140FA8 /* HomeScreenVM.swift */; };
+		07D4A2622337F1AA00140FA8 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D4A2612337F1AA00140FA8 /* HomeScreenVC.swift */; };
+		07D4A2652337F36E00140FA8 /* ViewModelForViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D4A2642337F36E00140FA8 /* ViewModelForViewController.swift */; };
+		07D4A2682337F56D00140FA8 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D4A2672337F56D00140FA8 /* Helper.swift */; };
+		07D4A26A2337F96D00140FA8 /* TextStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D4A2692337F96D00140FA8 /* TextStyleManager.swift */; };
+		07D4A26C2337FDA600140FA8 /* Dimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D4A26B2337FDA600140FA8 /* Dimensions.swift */; };
+		07D4A273233801BC00140FA8 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07D4A26F233801BC00140FA8 /* Montserrat-Regular.ttf */; };
+		07D4A274233801BC00140FA8 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07D4A270233801BC00140FA8 /* Montserrat-Bold.ttf */; };
+		07D4A275233801BC00140FA8 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07D4A271233801BC00140FA8 /* Montserrat-Light.ttf */; };
+		07D4A276233801BC00140FA8 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07D4A272233801BC00140FA8 /* Montserrat-SemiBold.ttf */; };
+		07D4A279233897A300140FA8 /* PersonalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D4A278233897A300140FA8 /* PersonalData.swift */; };
+		07D4A27B2338CCDC00140FA8 /* ExperienceVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D4A27A2338CCDC00140FA8 /* ExperienceVM.swift */; };
+		07D4A27D2338CCF300140FA8 /* ExperienceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D4A27C2338CCF300140FA8 /* ExperienceVC.swift */; };
+		07D4A27F2338CD3600140FA8 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D4A27E2338CD3600140FA8 /* Company.swift */; };
+		07D4A2812338CD3F00140FA8 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D4A2802338CD3F00140FA8 /* Project.swift */; };
+		35A2BCE1DCD1935BD637C428 /* Pods_Resume.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7EED5A1235131969890EA4 /* Pods_Resume.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07A82E432337ED390082DDF5 /* Resume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A82E462337ED390082DDF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07A82E482337ED390082DDF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		07A82E4B2337ED390082DDF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07A82E4D2337ED3C0082DDF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07A82E502337ED3C0082DDF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07A82E522337ED3C0082DDF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D4A25F2337F19E00140FA8 /* HomeScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVM.swift; sourceTree = "<group>"; };
+		07D4A2612337F1AA00140FA8 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
+		07D4A2642337F36E00140FA8 /* ViewModelForViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelForViewController.swift; sourceTree = "<group>"; };
+		07D4A2672337F56D00140FA8 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		07D4A2692337F96D00140FA8 /* TextStyleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyleManager.swift; sourceTree = "<group>"; };
+		07D4A26B2337FDA600140FA8 /* Dimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimensions.swift; sourceTree = "<group>"; };
+		07D4A26F233801BC00140FA8 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		07D4A270233801BC00140FA8 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		07D4A271233801BC00140FA8 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		07D4A272233801BC00140FA8 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		07D4A278233897A300140FA8 /* PersonalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalData.swift; sourceTree = "<group>"; };
+		07D4A27A2338CCDC00140FA8 /* ExperienceVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceVM.swift; sourceTree = "<group>"; };
+		07D4A27C2338CCF300140FA8 /* ExperienceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceVC.swift; sourceTree = "<group>"; };
+		07D4A27E2338CD3600140FA8 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		07D4A2802338CD3F00140FA8 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		5F7EED5A1235131969890EA4 /* Pods_Resume.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Resume.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78B83C0027F8C9B05BBC7667 /* Pods-Resume.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resume.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Resume/Pods-Resume.debug.xcconfig"; sourceTree = "<group>"; };
+		A3859594F3E30D2A391E2917 /* Pods-Resume.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resume.release.xcconfig"; path = "Pods/Target Support Files/Pods-Resume/Pods-Resume.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A2BCE1DCD1935BD637C428 /* Pods_Resume.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +73,8 @@
 			children = (
 				07A82E452337ED390082DDF5 /* Resume */,
 				07A82E442337ED390082DDF5 /* Products */,
+				24B07C012D272E57BDC2A630 /* Pods */,
+				9927B2316FEECD773A008067 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +89,85 @@
 		07A82E452337ED390082DDF5 /* Resume */ = {
 			isa = PBXGroup;
 			children = (
+				07D4A2772338976600140FA8 /* Models */,
+				07D4A26E233800DA00140FA8 /* Fonts */,
+				07D4A2662337F55F00140FA8 /* Helpers */,
+				07D4A25E2337F18500140FA8 /* Screens */,
 				07A82E462337ED390082DDF5 /* AppDelegate.swift */,
 				07A82E482337ED390082DDF5 /* ViewController.swift */,
-				07A82E4A2337ED390082DDF5 /* Main.storyboard */,
 				07A82E4D2337ED3C0082DDF5 /* Assets.xcassets */,
 				07A82E4F2337ED3C0082DDF5 /* LaunchScreen.storyboard */,
 				07A82E522337ED3C0082DDF5 /* Info.plist */,
 			);
 			path = Resume;
+			sourceTree = "<group>";
+		};
+		07D4A25E2337F18500140FA8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				07D4A2632337F2FA00140FA8 /* Generic */,
+				07D4A25F2337F19E00140FA8 /* HomeScreenVM.swift */,
+				07D4A2612337F1AA00140FA8 /* HomeScreenVC.swift */,
+				07D4A27A2338CCDC00140FA8 /* ExperienceVM.swift */,
+				07D4A27C2338CCF300140FA8 /* ExperienceVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		07D4A2632337F2FA00140FA8 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				07D4A2642337F36E00140FA8 /* ViewModelForViewController.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		07D4A2662337F55F00140FA8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				07D4A2672337F56D00140FA8 /* Helper.swift */,
+				07D4A2692337F96D00140FA8 /* TextStyleManager.swift */,
+				07D4A26B2337FDA600140FA8 /* Dimensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		07D4A26E233800DA00140FA8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				07D4A270233801BC00140FA8 /* Montserrat-Bold.ttf */,
+				07D4A271233801BC00140FA8 /* Montserrat-Light.ttf */,
+				07D4A26F233801BC00140FA8 /* Montserrat-Regular.ttf */,
+				07D4A272233801BC00140FA8 /* Montserrat-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		07D4A2772338976600140FA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				07D4A278233897A300140FA8 /* PersonalData.swift */,
+				07D4A27E2338CD3600140FA8 /* Company.swift */,
+				07D4A2802338CD3F00140FA8 /* Project.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		24B07C012D272E57BDC2A630 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78B83C0027F8C9B05BBC7667 /* Pods-Resume.debug.xcconfig */,
+				A3859594F3E30D2A391E2917 /* Pods-Resume.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9927B2316FEECD773A008067 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F7EED5A1235131969890EA4 /* Pods_Resume.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07A82E552337ED3C0082DDF5 /* Build configuration list for PBXNativeTarget "Resume" */;
 			buildPhases = (
+				32D42A528D0AA96182A1C92E /* [CP] Check Pods Manifest.lock */,
 				07A82E3F2337ED390082DDF5 /* Sources */,
 				07A82E402337ED390082DDF5 /* Frameworks */,
 				07A82E412337ED390082DDF5 /* Resources */,
+				A413C56CF788C9EBFD1928DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,13 +230,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D4A276233801BC00140FA8 /* Montserrat-SemiBold.ttf in Resources */,
+				07D4A275233801BC00140FA8 /* Montserrat-Light.ttf in Resources */,
+				07D4A274233801BC00140FA8 /* Montserrat-Bold.ttf in Resources */,
+				07D4A273233801BC00140FA8 /* Montserrat-Regular.ttf in Resources */,
 				07A82E512337ED3C0082DDF5 /* LaunchScreen.storyboard in Resources */,
 				07A82E4E2337ED3C0082DDF5 /* Assets.xcassets in Resources */,
-				07A82E4C2337ED390082DDF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32D42A528D0AA96182A1C92E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Resume-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A413C56CF788C9EBFD1928DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Resume/Pods-Resume-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Resume/Pods-Resume-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		07A82E3F2337ED390082DDF5 /* Sources */ = {
@@ -136,21 +298,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				07A82E492337ED390082DDF5 /* ViewController.swift in Sources */,
+				07D4A2602337F19E00140FA8 /* HomeScreenVM.swift in Sources */,
+				07D4A27D2338CCF300140FA8 /* ExperienceVC.swift in Sources */,
+				07D4A2652337F36E00140FA8 /* ViewModelForViewController.swift in Sources */,
 				07A82E472337ED390082DDF5 /* AppDelegate.swift in Sources */,
+				07D4A2812338CD3F00140FA8 /* Project.swift in Sources */,
+				07D4A26C2337FDA600140FA8 /* Dimensions.swift in Sources */,
+				07D4A279233897A300140FA8 /* PersonalData.swift in Sources */,
+				07D4A27B2338CCDC00140FA8 /* ExperienceVM.swift in Sources */,
+				07D4A2622337F1AA00140FA8 /* HomeScreenVC.swift in Sources */,
+				07D4A2682337F56D00140FA8 /* Helper.swift in Sources */,
+				07D4A26A2337F96D00140FA8 /* TextStyleManager.swift in Sources */,
+				07D4A27F2338CD3600140FA8 /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		07A82E4A2337ED390082DDF5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07A82E4B2337ED390082DDF5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		07A82E4F2337ED3C0082DDF5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +445,7 @@
 		};
 		07A82E562337ED3C0082DDF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B83C0027F8C9B05BBC7667 /* Pods-Resume.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +464,7 @@
 		};
 		07A82E572337ED3C0082DDF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3859594F3E30D2A391E2917 /* Pods-Resume.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
